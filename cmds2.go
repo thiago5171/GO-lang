@@ -8,6 +8,13 @@ func main() {
 	usando este  comndao para fazer declações 
 			:=
 	a grosso modo seria uma tipagem automatica
+	apos feito uma declaração em uma variavel, nao podera fazer novas declarações, apenas  atribuições
+	por exemplo eu fiz isso
+	a:= 5
+	nao sera possivel que eu use novamente o := com o a novamnete
+	a:=20
+	apenas poderei usar uma atribuição normal
+	a = 20
 	*/
 	x :=  "g"
 	y :=  222

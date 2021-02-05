@@ -24,5 +24,7 @@ func main() {
 	fmt.Println(x,"<-um %t texto\n",
 	y,"<- um valor numerico\n",
 	z,"<- um valor boleano [true/false]\n")
-	fmt.Printf("x: %j ",x)
+	
+
+
 }

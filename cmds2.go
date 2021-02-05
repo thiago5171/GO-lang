@@ -15,6 +15,8 @@ func main() {
 	a:=20
 	apenas poderei usar uma atribuição normal
 	a = 20
+	no entano ainda podera fazer outra nessa variavel caso haja uma nova variavel, por exemplo 
+	a,z := 20,60
 	*/
 	x :=  "g"
 	y :=  222

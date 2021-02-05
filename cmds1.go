@@ -5,7 +5,9 @@ para que serve o package main no inici do codigo
 */
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() { // essa func main mostra onde sera o inicio da execução do codigo ate o fim da ultima chaves
 	fmt.Println("heelo world", "ola pessoas", "demontrar numeros 100 e ", 100)

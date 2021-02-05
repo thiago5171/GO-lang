@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	/* Declarações são diferentes  de atribuições, pois na declaração  a variavel analisa qual tipo primitivo 
@@ -17,6 +19,10 @@ func main() {
 	a = 20
 	no entano ainda podera fazer outra nessa variavel caso haja uma nova variavel, por exemplo 
 	a,z := 20,60
+	lembrando que := so funciona dentro do func main(){}
+	caso precise escrever fora disso basta escrever da seguinte forma
+
+		var a = "texto desejavel " ou qualquer tipo  primitivo
 	*/
 	x :=  "g"
 	y :=  222

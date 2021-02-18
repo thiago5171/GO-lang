@@ -15,9 +15,17 @@ func main(){
 	fmt.Println(name, "is", age, "years old.")
 	
 	2)
+	nesse caso vao existir as mesmas variacoes de Sprintln e Sprintf
+	Então o fmt.Sprint() vai trandoramr tudo dentro dele em uma string, podendo fazer seu uso dessa forma
+ 	*/
+	 x := 5
+	 z := 4
+ 
+	 a := fmt.Sprint(x,z)
+	 fmt.Printf(a)
+	/*
+	atribuindo para um variavel para receber os valores em string
 	*/
-
-	
 	/*
 	
 	*/

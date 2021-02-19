@@ -16,15 +16,22 @@ func main(){
 	
 	2)
 	nesse caso vao existir as mesmas variacoes de Sprintln e Sprintf
-	Então o fmt.Sprint() vai trandoramr tudo dentro dele em uma string, podendo fazer seu uso dessa forma
+	Então o fmt.Sprint() vai transforamr tudo dentro dele em uma string porem nao vai exibir nada, podendo fazer seu uso dessa forma
  	*/
-	 x := 5
-	 z := 4
+	x := 5
+	z := 4
  
-	 a := fmt.Sprint(x,z)
-	 fmt.Printf(a)
+	a := fmt.Sprint(x,z)
+	fmt.Printf(a)
+	//ou
+	b := "oi"
+	c := "bom dia"
+	
+	k := fmt.Sprint(b," ",c)
+	fmt.Printf(k)	
 	/*
 	atribuindo para um variavel para receber os valores em string
+	ao inves de pegar o texto dado para ele e colocar na tela, ele vai pegar esse texto colocar em uma string e retornar uma string
 	*/
 	/*
 	

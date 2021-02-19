@@ -9,7 +9,7 @@ import (
 	"fmt"
 )
 
-func main() { // essa func main mostra onde sera o inicio da execução do codigo ate o fim da ultima chaves
+func () { // essa func main mostra onde sera o inicio da execução do codigo ate o fim da ultima chaves
 	fmt.Println("heelo world", "ola pessoas", "demontrar numeros 100 e ", 100)
 
 	//é possivel descobrir quantos bytes esta sendo usada determinada funcao e  o numeros de erros da seguinte forma,

@@ -33,7 +33,5 @@ func main(){
 	atribuindo para um variavel para receber os valores em string
 	ao inves de pegar o texto dado para ele e colocar na tela, ele vai pegar esse texto colocar em uma string e retornar uma string
 	*/
-	/*
 	
-	*/
 }

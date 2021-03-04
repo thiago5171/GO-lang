@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 )
-var x = 42
-var y = "james bond"
-var z = true
+var x int = 42
+var y string = "james bond"
+var z bool = true
 
 func main(){
 	
-	s := fmt.Sprintf("%v %v %T",x,y,z)
+	s := fmt.Sprintf("%v \n%v\n%v",x,y,z)
 	fmt.Println(s)
 
 }

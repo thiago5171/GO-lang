@@ -51,3 +51,15 @@ Utilizando a solução do exercício anterior:
             1. Utilize conversão para transformar o tipo do valor da variável "x" em seu tipo subjacente e, utilizando o operador "=", atribua o valor de "x" a "y"
             2. Demonstre o valor de "y"
             3. Demonstre o tipo de "y
+
+6)
+Escreva expressões utilizando os operadores, e atribua seus valores a variáveis.
+- Demonstre estes valores.
+
+
+7)
+Crie constantes tipadas e não-tipadas.
+- Demonstre seus valores.
+8)
+
+9)

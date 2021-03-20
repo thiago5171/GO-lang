@@ -14,6 +14,4 @@ func main(){
 	fmt.Printf("z = %v\n",z)
 	
 
-
-
 } 	

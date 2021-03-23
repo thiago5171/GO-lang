@@ -1,4 +1,4 @@
-package main
+package maing
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ for i2<=10 {// entaoconheguimos ter uma estrutura equivalente ao whhile apenas a
   i2++  
 }
 //e para fazer uma repeticao infinita basta fazer essa estrutura
-
+i3:= 
   // e para sair basta introduzir um laco de repeticao propondo uma condicao e caso nao atenda pode usar a funcao break que sai da estrutura for
   // como para quebrar o loop todo se usa break, quando queremos   quebrar apenas uma iteracao especifica do loop usammos  o 'continue'
 

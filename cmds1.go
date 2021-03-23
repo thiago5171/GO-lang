@@ -3,13 +3,13 @@ para que serve o package main no inicio do codigo
 	ele orienta que este seja o codigo principal caso tenha varias pastas com codigos dao continuidade para
 	este que é p principal
 */
-package main
+package maina
 
 import (
 	"fmt"
 )
 
-func () { // essa func main mostra onde sera o inicio da execução do codigo ate o fim da ultima chaves
+func main() { // essa func main mostra onde sera o inicio da execução do codigo ate o fim da ultima chaves
 	fmt.Println("heelo world", "ola pessoas", "demontrar numeros 100 e ", 100)
 
 	//é possivel descobrir quantos bytes esta sendo usada determinada funcao e  o numeros de erros da seguinte forma,

@@ -3,7 +3,7 @@ para que serve o package main no inicio do codigo
 	ele orienta que este seja o codigo principal caso tenha varias pastas com codigos dao continuidade para
 	este que é p principal
 */
-package maina
+package main
 
 import (
 	"fmt"

@@ -60,6 +60,17 @@ Escreva expressões utilizando os operadores, e atribua seus valores a variávei
 7)
 Crie constantes tipadas e não-tipadas.
 - Demonstre seus valores.
-8)
+8)Põe na tela: todos os números de 1 a 10000.
 
-9)
+9)Põe na tela: O unicode code point de todas as letras maiúsculas do alfabeto, três vezes cada.
+- Por exemplo:
+    65                  66
+        U+0041 'A'           U+0042 'B'
+        U+0041 'A'           U+0042 'B'   
+        U+0041 'A'           U+0042 'B' 
+    ...e por aí vai.
+
+10) - Crie um loop utilizando a sintaxe: for condition {}
+    - Utilize-o para demonstrar os anos desde que você nasceu.
+
+11)

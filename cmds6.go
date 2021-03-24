@@ -1,4 +1,4 @@
-package mainf
+package main
 
 import (
 	"fmt"

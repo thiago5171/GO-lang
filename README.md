@@ -73,4 +73,22 @@ Crie constantes tipadas e não-tipadas.
 10) - Crie um loop utilizando a sintaxe: for condition {}
     - Utilize-o para demonstrar os anos desde que você nasceu.
 
-11)
+11)Demonstre o resto da divisão por 4 de todos os números entre 10 e 100
+
+12)Crie um programa que utilize a declaração switch, sem switch statement especificado.
+
+13)Crie um programa que utilize a declaração switch, onde o switch statement seja uma variável do tipo string com identificador "timeFavorito".
+
+14)
+
+15)
+
+16)
+
+17)
+
+18)
+
+19)
+
+20)

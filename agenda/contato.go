@@ -4,10 +4,14 @@ import (
 	"fmt"
 )
 
-type Contato struct {
-	Nome string
-	Telefone string
-	Email string
+
+
+func main(){
+	thiago := Contato{
+		Nome : "thiago",
+		Telefone : "9999-9999",
+		Email : "tgazaroli@gmail.com",
+	}
+
+	fmt.Println(thiago.Telefone)
 }
-
-

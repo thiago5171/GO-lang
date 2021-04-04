@@ -64,4 +64,34 @@ slice= append(slice, fatia...)
 //					        |-> isso siginifica que vai adicionar os elementos  da variavel fatia
 //pois como slices sao feitas de arrays entao elas sao de tipos diferente, ou seja, nao conseguem interagir
 
+
+
+
+
+
+fmt.Println("USO DO MAKE ABAIXO")
+
+//'MAKE' de forma geral o make serve para fins de benchmarks, pois ele predefine a quantidade de indices que terao sem preenchelos 
+//sendo isso a capacidade, e ele tambem cpossibilita cololcar a quantidade  de indices ja preenchidos com 0
+// esse preenchimento do possibilita que possa alterar o valor do  indice sem usar o append
+//A ESTRUTURA DO MAKE É A SEGUINTE
+slice3:= make([]int ,5,10)
+
+slice3[0]=8
+slice3= append(slice3 ,1)//quando se faz a soma apos ter criado um uma slice com  um bom comprimento ele nao joga fora a slice criada e substitui por uma nova
+//ele apenas acrescenta nos espacos predefinidos ajudando no quesito velocidade
+
+fmt.Println(slice3)
+
+fmt.Println("comprimento do slice3",len(slice3))// o comprimento
+
+fmt.Println("capacidade do slice3",cap(slice3))//capacidade total
+//
+slice3= append(slice3 ,1,3,4,5,6,7,8,9) //nesse caso eu somei indices a mais do que eu tinha predefinido, entao ele é dobrado automaticamente quando se ultrapassa, substituindo o array, sendo prejudicial para benchmarks
+
+fmt.Println(slice3)
+
+fmt.Println("comprimento do slice3",len(slice3))
+
+fmt.Println("capacidade do slice3",cap(slice3))
 }

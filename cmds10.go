@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 )
-// 'ARRAY' ele sempre comeca contar de 0
+// 'ARRAY' ele sempre comeca contar de 0 e sao imutaveis, uma vez predefinida  a quantidade de casas n se pode alterar
 var x [5]int
-
+var y [3]int{1,2,3}
 func main(){
 	x[0]=1
 	x[1]=2
@@ -19,5 +19,6 @@ func main(){
 array:= [5]int{1,2,3,4,5}
 fmt.Println(array)
 
+fmt.Println(y)
 
 }

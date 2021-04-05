@@ -75,6 +75,7 @@ fmt.Println("USO DO MAKE ABAIXO")
 //sendo isso a capacidade, e ele tambem cpossibilita cololcar a quantidade  de indices ja preenchidos com 0
 // esse preenchimento do possibilita que possa alterar o valor do  indice sem usar o append
 //A ESTRUTURA DO MAKE É A SEGUINTE
+
 slice3:= make([]int ,5,10)
 
 slice3[0]=8
